@@ -17,6 +17,7 @@ Components:  <br />
     &emsp;1. HomeComponent: This is the default component with the search-bar taking number inputs only. <br />
     &emsp;2. ListComponent: This is the component that displays the top 'n' results ('n' entered in the homecomponent) of the  &emsp;frequency distributon of the word count as stated in the problem statement. <br />
     &emsp;3. AppComponent: This is the root-component of the root-module (AppModule). This contains a constant navbar component, with a router outlet to route between HomeComponent and ListComponent. (Routing details in 'src/app/app-routing.module.ts') <br />
+    &emsp;4. BackendService: This is the injectible service created which uses HTTPClientModule to make RESTful calls to the backend. (src/app/services/backend.service.ts)
 
 ## /ttt-backend
 
@@ -34,6 +35,15 @@ Components: <br />
     &emsp;1. app.js: This is the entry point for the express application. This contains all the dependencies, middlewares, routes(imported from 'routes/applciationRoutes.js') and initializes the server(at 3000 for development server). <br />
     &emsp;2. applicationRoutes.js: This contains the routes defined by the backend to handle requests. It contains the  GET: /ttt/:count route, which fetches, orders, maps and sorts the text file at https://terriblytinytales.com/test.txt.  <br />
 
+## Libraries and Dependencies
+
+1. ttt-backend: <br />
+    &emsp;a. node-fetch: to fetch file from url<br />
+    &emsp;b. express: used express on top of Node.js <br />
+    &emsp;c. cors: cross-origin resource sharing (to communicate with Angular 8) <br />
+1. ttt-frontend: <br />
+    &emsp;a. bootswatch/darkly: dark bootstrap CDN theme from bootswatch (https://bootswatch.com/darkly/)<br />
+
 ## Production
 
 The current git repository contains the developement server folder structure.  <br />
@@ -42,5 +52,5 @@ For the production server visit: (https://github.com/HIMA-MB02/ttt-assignments).
 ## Deployment
 
 This application has been deployed on heroku as a MEAN Stack application.  <br />
-(https://limitless-hamlet-00283.herokuapp.com)
+(https://word-frequency-distribution.herokuapp.com)
 
