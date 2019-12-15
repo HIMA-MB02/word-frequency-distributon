@@ -15,8 +15,9 @@ To run the frontend: <br />
 
 Components:  <br />
     &emsp;1. HomeComponent: This is the default component with the search-bar taking number inputs only. <br />
-    &emsp;2. ListComponent: This is the component that displays the top 'n' results ('n' entered in the homecomponent) of the frequency distributon of the word count as stated in the problem statement. <br />
-    &emsp;3. AppComponent: This is the root-component of the root-module (AppModule). This contains a constant navbar component, with a router outlet to route between HomeComponent and ListComponent. (Routing details in 'src/app/app-routing.module.ts') <br />
+    &emsp;2. ListComponent: This is the component that displays the top 'n' results ('n' entered in the homecomponent) of the 
+    &emsp;frequency distributon of the word count as stated in the problem statement. <br />
+    &emsp;3. AppComponent: This is the root-component of the root-module (AppModule). This contains a constant navbar component, with &emsp;a router outlet to route between HomeComponent and ListComponent. (Routing details in 'src/app/app-routing.module.ts') <br />
 
 ## /ttt-backend
 
@@ -27,12 +28,15 @@ Starting point is in ./app.js in the root directory.
 To run the backend: <br />
     &emsp;Open the terminal with /ttt-backend as the root folder. <br />
     &emsp;Run `npm install` to install the required dependencies from package.json. <br />
-    &emsp;Run `node app.js` for a dev server. Navigate to `http://localhost:3000/`. (This is the RESTful endpoints to communicate to frontend) <br />
+    &emsp;Run `node app.js` for a dev server. Navigate to `http://localhost:3000/`. (This is the RESTful endpoints to communicate to 
+    &emsp;frontend) <br />
     &emsp;NOTE: The app will NOT automatically reload if you change any of the source files. <br />
 
 Components: <br />
-    &emsp;1. app.js: This is the entry point for the express application. This contains all the dependencies, middlewares, routes(imported from 'routes/applciationRoutes.js') and initializes the server(at 3000 for development server). <br />
-    &emsp;2. applicationRoutes.js: This contains the routes defined by the backend to handle requests. It contains the  GET: /ttt/:count route, which fetches, orders, maps and sorts the text file at https://terriblytinytales.com/test.txt.  <br />
+    &emsp;1. app.js: This is the entry point for the express application. This contains all the dependencies, middlewares, routes
+    &emsp;(imported from 'routes/applciationRoutes.js') and initializes the server(at 3000 for development server). <br />
+    &emsp;2. applicationRoutes.js: This contains the routes defined by the backend to handle requests. It contains the  
+    &emsp;GET: /ttt/:count route, which fetches, orders, maps and sorts the text file at https://terriblytinytales.com/test.txt.  <br />
 
 ## Production
 
