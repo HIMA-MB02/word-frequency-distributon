@@ -1,0 +1,22 @@
+{
+  "name": "ttt-backend",
+  "version": "1.0.0",
+  "description": "Node.js with Express.js as backend for assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js"
+  ],
+  "author": "Himanshu Ganapavarapu",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}
