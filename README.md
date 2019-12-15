@@ -39,7 +39,7 @@ Components: <br />
 The current git repository contains the developement server folder structure.  <br />
 For the production server visit: (https://github.com/HIMA-MB02/ttt-assignments). <br />
 
-## Deploment
+## Deployment
 
 This application has been deployed on heroku as a MEAN Stack application.  <br />
 (https://limitless-hamlet-00283.herokuapp.com)
