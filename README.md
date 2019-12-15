@@ -8,7 +8,7 @@ Clone and download the application and open the root folder in Visual Studio Cod
 This folder contains the frontend of the application built in Angular 8.
 
 To run the frontend: <br />
-    &nbsp;Open the terminal with /ttt-frontend as the root folder. <br />
+    &emsp;Open the terminal with /ttt-frontend as the root folder. <br />
     Run `npm install` to install the required dependencies from package.json. <br />
     Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.  <br />
     The app will automatically reload if you change any of the source files. <br />
